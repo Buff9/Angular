@@ -1,0 +1,9 @@
+<div *ngFor="let comment of comments.slice(0,10)">
+  <h2><b>{{comment.id}}. <i>{{comment.name}}</i></b></h2>
+  <p><i>{{comment.email}}</i></p>
+  <h4>
+    <i>
+      {{comment.body}}
+    </i>
+  </h4>
+</div>
